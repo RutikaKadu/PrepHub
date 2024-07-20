@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <title>PrepHub - The pyq repository</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .custom-container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .custom-container h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .custom-highlight-blue {
+            color: #ff5733;
+            font-size: 50px;
+            display: inline-block;
+        }
+
+        .custom-highlight-blue span {
+            display: inline-block;
+            animation: fadeInOut 2s infinite;
+        }
+
+        .custom-highlight-blue span:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .custom-highlight-blue span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .custom-highlight-blue span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        .custom-highlight-blue span:nth-child(4) {
+            animation-delay: 0.6s;
+        }
+
+        .custom-highlight-blue span:nth-child(5) {
+            animation-delay: 0.8s;
+        }
+
+        .custom-highlight-blue span:nth-child(6) {
+            animation-delay: 1s;
+        }
+
+        .custom-highlight-blue span:nth-child(7) {
+            animation-delay: 1.2s;
+        }
+
+        .custom-highlight-blue span:nth-child(8) {
+            animation-delay: 1.4s;
+        }
+
+        @keyframes fadeInOut {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        .custom-highlight-green {
+            color: green;
+        }
+
+        .custom-highlight-red {
+            color: red;
+        }
+
+        .custom-container p {
+            text-align: center;
+            color: rgb(0, 5, 5);
+            animation: fadeIn 2s forwards;
+            animation-delay: 2s;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .custom-image1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .custom-image1 img {
+            max-width: 100%;
+            height: auto;
+            animation: zoomIn 2s forwards;
+            opacity: 0;
+            animation-delay: 4s;
+        }
+
+        @media (max-width: 776px) {
+            .custom-image1 img {
+                display: block;
+                height: 200px;
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-end">
+        <div class="name">
+            <h1>PrepHub</h1>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="custom-container">
+        <h2>Welcome to the <span class="custom-highlight-blue">
+                <span>P</span>
+                <span>r</span>
+                <span>e</span>
+                <span>p</span>
+                <span>H</span>
+                <span>u</span>
+                <span>b</span>
+            </span> YCCE's Previous Year <span class="custom-highlight-green">Questions</span> (PYQ) <span
+                class="custom-highlight-red">Repository</span>!</h2>
+        <p>Your one-stop destination for accessing a vast collection of past exam papers. We are delighted to provide
+            this resource to help you prepare effectively for your upcoming exams and excel in your academic journey.
+            This website has been designed with your needs in mind, offering easy access to PYQs across various courses
+            and departments. Whether you are looking to practice problem-solving, understand exam patterns, or simply
+            boost your confidence, you will find this repository invaluable.</p>
+        <div class="custom-image1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrCNQ9DLWvLbJteI95pEcCy1aJxdgtKu5W_A&s"
+                alt="Image 1">
+            <img src="https://d2lk14jtvqry1q.cloudfront.net/media/large_185_aac716dbd6_45d90be062.png" alt="Image 2"
+                height="200px" width="500px">
+        </div>
+    </div>
+
+
+
+    <div class="container2">
+        <h2 class="text-center my-4">QUICK FACTS</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+            <div class="col">
+                <div class="card h-100 custom-card">
+                    <div class="image-container">
+                        <img src="https://cdn-icons-png.flaticon.com/512/8711/8711128.png"
+                            class="card-img-top rounded-circle-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">All India Ranked 139th by NIRF, MHRD, Govt. of India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 custom-card">
+                    <div class="image-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUxmt-mpFFnMgHyAWGvJJBdnLCgkMteN89Q&s"
+                            class="card-img-top rounded-circle-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Awarded Grade 'A' by Govt. of Maharashtra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 custom-card">
+                    <div class="image-container">
+                        <img src="https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png"
+                            class="card-img-top rounded-circle-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Awarded Grade 'A++' by NAAC, Bangalore</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 custom-card">
+                    <div class="image-container">
+                        <img src="https://e7.pngegg.com/pngimages/66/948/png-clipart-gold-award-achievement-award-medal-video-game-thumbnail.png"
+                            class="card-img-top rounded-circle-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Programmes Accredited by National Board of Accreditation (N.B.A.)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 custom-card">
+                    <div class="image-container">
+                        <img src="https://static.vecteezy.com/system/resources/previews/009/383/796/non_2x/winner-glass-award-clipart-design-illustration-free-png.png"
+                            class="card-img-top rounded-circle-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Recipient of aid from World Bank through TEQIP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--services-->
+    <div class="container4 department-section" id="services">
+        <h2 class="text-center">Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Filter by Department</h4>
+                <select class="form-control" id="departmentFilter">
+                    <option value="">Select Department</option>
+                    <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="AIML">AIML</option>
+                    <option value="CSD">CSD</option>
+                    <option value="Computer Technology">Computer Technology</option>
+                    <option value="Electronics and Telecomunication">Electronics and Telecomunication</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Open Elective 1">Open Elective 1</option>
+                    <option value="Open Elective 2">Open Elective 2</option>
+
+
+                </select>
+            </div>
+            <div class="col-md-4">
+                <h4>Filter by Semester</h4>
+                <select class="form-control" id="semesterFilter">
+                    <option value="">Select Semester</option>
+                    <option value="1">Semester 1</option>
+                    <option value="2">Semester 2</option>
+                    <option value="3">Semester 3</option>
+                    <option value="4">Semester 4</option>
+                    <option value="5">Semester 5</option>
+                    <option value="6">Semester 6</option>
+                    <option value="7">Semester 7</option>
+                    <option value="8">Semester 8</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="row mt-4" id="pyqContainer">
+
+        </div>
+    </div>
+
+
+
+    <!--about-->
+    <div class="container" id="about">
+        <div class="subcontainer">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-center">About PrepHub</h2>
+                <p class="lead">PrepHub is your ultimate destination for accessing a comprehensive collection of
+                    previous
+                    year questions (PYQs) across various courses and departments. Our platform is designed to assist
+                    students in their exam preparation journey by providing easy access to past exam papers,
+                    facilitating effective revision, and enhancing overall academic performance.</p>
+
+            </div>
+        </div>
+        <div class="container1">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4 center-image-container">
+                        <img src="https://ycce.edu/wp-content/uploads/2023/03/WhatsApp-Image-2023-02-20-at-2.29.46-PM.jpeg"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">Our Mission</h4>
+                            <ul>
+                                <p class="card-text">At PrepHub, we understand the importance of exam preparation and
+                                    the
+                                    role that past exam papers play
+                                    in helping students excel in their academic pursuits. Our repository is meticulously
+                                    curated to
+                                    ensure that students have access to a diverse range of PYQs, enabling them to
+                                    familiarize themselves
+                                    with exam formats, understand question patterns, and identify key areas of focus.
+                                    Our mission is to support students in their academic journey by
+                                    providing easy access to a comprehensive
+                                    collection of previous exam papers. </p>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <h3>What we offer</h3>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Extensive PYQ Collection</h5>
+                        <p class="card-text">Easily browse past exam papers sorted by semister and
+                            department.</p>
+                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Improve Exam Readiness</h5>
+                        <p class="card-text">Equip students with the tools and confidence needed to perform their best.
+                        </p>
+                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--contact-->
+
+    <div class="container contact-container" id="contact">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="contact-info text-center card p-4 mt-5 shadow">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or need further information, feel free to reach out to us at:</p>
+                    <p><a href="mailto:kadu.rutika04@gmail.com">kadu.rutika04@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>About Us</h5>
+                    <p style="color: white;">We provide a repository of past year questions to help students prepare for
+                        their exams.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#services" class="text-white">Services</a></li>
+                        <li><a href="#about" class="text-white">About</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>College Website</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://ycce.edu" target="_blank" class="text-white">Visit YCCE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var isNavOpen = false;
+            $('.navbar-toggler').on('click', function () {
+                if (isNavOpen) {
+                    $('#navbarNav').collapse('hide');
+                    isNavOpen = false;
+                } else {
+                    $('#navbarNav').collapse('show');
+                    isNavOpen = true;
+                }
+            });
+
+            $(document).on('click', function (event) {
+                var clickover = $(event.target);
+                var _opened = $("#navbarNav").hasClass("show");
+                if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+                    $("#navbarNav").collapse('hide');
+                    isNavOpen = false;
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
